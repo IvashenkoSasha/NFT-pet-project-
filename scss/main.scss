@@ -1,1 +1,7 @@
-@import url('./base/_fotnts.scss');
+
+@import './base/fotnts.scss';
+@import './base/container';
+@import './base/reset';
+@import './utils/vars';
+@import './utils/visually-hidden';
+@import './layouts/header.scss'
