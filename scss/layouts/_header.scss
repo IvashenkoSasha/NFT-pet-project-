@@ -1,0 +1,51 @@
+header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 25px;
+    height: 25px;
+    background-color: var(--red);
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+
+    &-icon {
+        width: 17.5px;
+        height: 18px;
+    }
+}
+
+.header-name {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 1.33;
+    color: var(--white);
+
+    &--red {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 1.33;
+        color: var(--red);
+    }
+}
+
+.header-burger {
+    width: 40px;
+    height: 40px;
+    background-color: #384D70;
+    border-radius: 5px;
+
+    &-icon {
+        width: 17px;
+        height: 12px;
+        fill: var(--white);
+    }
+}
