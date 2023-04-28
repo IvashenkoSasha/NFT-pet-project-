@@ -295,4 +295,24 @@ header {
   font-size: 14px;
   line-height: 17px;
   color: rgba(255, 255, 255, 0.4);
+}
+
+.warning-text-wrapper {
+  background: #5A4039;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.warning-text {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(255, 245, 0, 0.6);
+  height: 12.7px;
+}
+
+.warning-text--mod {
+  margin-right: 15px;
 }/*# sourceMappingURL=main.css.map */
