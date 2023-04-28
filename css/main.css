@@ -32,6 +32,7 @@
 }
 body {
   margin: 0;
+  background-color: var(--dark-blue);
 }
 
 a {
@@ -177,7 +178,6 @@ header {
 .hero {
   padding-top: 92px;
   padding-bottom: 35px;
-  background-color: var(--dark-blue);
 }
 
 .hero-container {
@@ -297,6 +297,10 @@ header {
   color: rgba(255, 255, 255, 0.4);
 }
 
+.partners {
+  padding-bottom: 60px;
+}
+
 .warning-text-wrapper {
   background: #5A4039;
   padding-top: 8px;
@@ -315,4 +319,43 @@ header {
 
 .warning-text--mod {
   margin-right: 15px;
+}
+
+.partners-container {
+  margin-top: 20px;
+}
+
+.partners-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.partners-list-item {
+  opacity: 0.3;
+  height: 30px;
+}
+.partners-list-item--pink-sale {
+  width: 94px;
+}
+.partners-list-item--inter-fi {
+  width: 80px;
+}
+.partners-list-item--sandbox {
+  width: 82px;
+}
+.partners-list-item--decentralend {
+  width: 99px;
+}
+.partners-list-item--coin-gecko {
+  width: 114px;
+}
+.partners-list-item--coinmark {
+  width: 88px;
 }/*# sourceMappingURL=main.css.map */

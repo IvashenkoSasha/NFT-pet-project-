@@ -1,3 +1,8 @@
+.partners {
+    padding-bottom: 60px;
+}
+
+
 .warning-text-wrapper {
     background: #5A4039;
     padding-top: 8px;
@@ -16,4 +21,40 @@
 
 .warning-text--mod {
     margin-right: 15px;
+}
+
+.partners-container {
+    margin-top: 20px;
+}
+
+.partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.partners-list-item {
+    opacity: 0.3;
+    height: 30px;
+
+    &--pink-sale {
+        width: 94px;
+    }
+    &--inter-fi {
+        width: 80px;
+    }
+    &--sandbox {
+        width: 82px;
+    }
+    &--decentralend {
+        width: 99px;
+    }
+    &--coin-gecko {
+        width: 114px;
+    }
+    &--coinmark {
+        width: 88px;
+    }
 }
